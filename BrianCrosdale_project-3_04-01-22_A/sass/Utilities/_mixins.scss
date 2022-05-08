@@ -1,0 +1,15 @@
+
+// C1 //
+@mixin shadow {
+    box-shadow: 2px 2px 10px $shadow-color;
+}
+
+// C2 //
+@mixin darker-shadow{
+    box-shadow: 2px 2px 20px black;
+}
+
+// C3 //
+@mixin gradient-color {
+    background-image: linear-gradient($secondary-color, $primary-color);
+}
